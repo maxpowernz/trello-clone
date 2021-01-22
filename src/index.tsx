@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
-import { AppState, AppStateProvider } from "./AppStateContext";
+import { AppStateProvider } from "./AppStateContext";
 
 ReactDOM.render(
   <React.StrictMode>

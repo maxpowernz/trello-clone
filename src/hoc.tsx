@@ -1,4 +1,4 @@
-import React, { ComponentType, PropsWithChildren } from "react";
+import React from "react";
 
 function add(num1) {
   return function (num2) {
