@@ -4,7 +4,6 @@ import { Column } from "./Column";
 import { AddNewItem } from "./AddNewItem";
 import { useAppState } from "./AppStateContext";
 import { CustomDragLayer } from "./CustomDragLayer";
-import Hoc from "hoc";
 
 const App = () => {
   const { state, dispatch } = useAppState();
